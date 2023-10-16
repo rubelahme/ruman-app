@@ -5,13 +5,13 @@ const Dashboard = () => {
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/users")
+    fetch("https://ruman-app-sarver.vercel.app/users")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:3001/code")
+    fetch("https://ruman-app-sarver.vercel.app/code")
       .then((res) => res.json())
       .then((data) => setResult(data));
   }, []);

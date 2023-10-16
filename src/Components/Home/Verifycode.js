@@ -11,7 +11,7 @@ const Verifycode = () => {
       Code: data.exampleRequired,
     };
     console.log(Code);
-    fetch("http://localhost:3001/code", {
+    fetch("https://ruman-app-sarver.vercel.app/code", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(Code),
