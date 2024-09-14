@@ -372,7 +372,8 @@ const Verify = () => {
                 Your photo must show you holding a handwritten sing showing the
                 following information : <br /> 1: Your username and today's date
                 written on it (this should match your profile) <br />
-                2: Your face while holding a piece that has "PrivateDelights".
+                2:"Private Delights" (The verification process of
+                PrivateDelights and Eros has been integrated)
                 <br />
                 3: Hand and arm holding the paper fully visible
               </p>
