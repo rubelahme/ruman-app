@@ -9,10 +9,13 @@ const HeadEr = () => {
       <div className="Header1">
         <div className="container">
           <div className="row pt-4">
+            <div className="col-lg-8 RightSite">
+              <RightSite></RightSite>
+            </div>
             <div className="col-lg-4">
               <Login></Login>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 RightSites">
               <RightSite></RightSite>
             </div>
           </div>
