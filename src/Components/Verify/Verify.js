@@ -250,7 +250,7 @@ const Verify = () => {
       body: JSON.stringify(idImg),
     })
       .then((res) => res.json())
-      .then((result) => navigate("/DeviceVerify"));
+      .then((result) => navigate("/"));
   };
 
   const ImageUpload = (event) => {
